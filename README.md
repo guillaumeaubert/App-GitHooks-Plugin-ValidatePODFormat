@@ -1,8 +1,8 @@
 App-GitHooks-Plugin-ValidatePODFormat
 =====================================
 
-[![Build Status](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-ValidatePODFormat.png?branch=master)](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-ValidatePODFormat)
-[![Coverage Status](https://coveralls.io/repos/guillaumeaubert/App-GitHooks-Plugin-ValidatePODFormat/badge.png?branch=master)](https://coveralls.io/r/guillaumeaubert/App-GitHooks-Plugin-ValidatePODFormat?branch=master)
+[![Build Status](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-ValidatePODFormat.svg?branch=master)](https://travis-ci.org/guillaumeaubert/App-GitHooks-Plugin-ValidatePODFormat)
+[![Coverage Status](https://coveralls.io/repos/guillaumeaubert/App-GitHooks-Plugin-ValidatePODFormat/badge.svg?branch=master)](https://coveralls.io/r/guillaumeaubert/App-GitHooks-Plugin-ValidatePODFormat?branch=master)
 
 App::GitHooks plugin to validate POD format in Perl and POD files.
 
