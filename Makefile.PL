@@ -4,23 +4,23 @@ use ExtUtils::MakeMaker;
 WriteMakefile
 (
   'NAME' => 'App::GitHooks::Plugin::ValidatePODFormat',
-  'VERSION_FROM' => 'lib/App/GitHooks/Plugin/ValidatePODFormat.pm',
-  'PREREQ_PM' => {
-                   'App::GitHooks' => 0,
-                   'Capture::Tiny' => 0,
-                   'Git::Repository' => 0,
-                   'Pod::Simple' => 0,
-                   'Test::Exception' => 0,
-                   'Test::FailWarnings' => 0,
-                   'Test::Requires::Git' => 1.005,
-                   'Test::More' => '0.94',
-                   'Test::Type' => 0
-                 },
   'INSTALLDIRS' => 'site',
-  'EXE_FILES' => [],
-  'PL_FILES' => {},
   'test' => {
               'TESTS' => 't/*.t'
-            }
+            },
+  'EXE_FILES' => [],
+  'PL_FILES' => {},
+  'PREREQ_PM' => {
+                   'Pod::Simple' => 0,
+                   'Capture::Tiny' => 0,
+                   'Git::Repository' => 0,
+                   'Test::Type' => 0,
+                   'App::GitHooks' => 0,
+                   'Test::More' => '0.94',
+                   'Test::Exception' => 0,
+                   'Test::Requires::Git' => '1.005',
+                   'Test::FailWarnings' => 0
+                 },
+  'VERSION_FROM' => 'lib/App/GitHooks/Plugin/ValidatePODFormat.pm'
 )
 ;
